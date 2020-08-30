@@ -1,10 +1,24 @@
-# friendly-reminder README
+# friendly-reminder
 
-This is the README for your extension "friendly-reminder". After writing up a brief description, we recommend including the following sections.
+Friendly reminder is a extension that intends to implement a very specific functionality, the ability of configuring a message to be shown whenever the user opens a specific file.
 
-## Features
+The goal is by no means to replace documentation, but to give teams the ability to remind team-members about very specific situations regarding certaing parts of their codebase.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Planned Features
+
+What follows are the planned initial features of this extension:
+
+- The ability to configure, through a file in the repo's root, a set of messages to be shown whenever a file is opened on vscode.
+
+- The file is specified through it's path, allowing a range of files to be linked to a message.
+
+- Any individual message will be shown only once, if vscode is closed, the counter resets.
+
+## Support platforms
+
+Support for both linux and windows file systems is planned.
+
+<!-- Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 
 For example if there is an image subfolder under your extension project workspace:
 
@@ -24,8 +38,8 @@ For example:
 
 This extension contributes the following settings:
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+- `myExtension.enable`: enable/disable this extension
+- `myExtension.thing`: set to `blah` to do something
 
 ## Known Issues
 
@@ -47,19 +61,19 @@ Fixed issue #.
 
 Added features X, Y, and Z.
 
------------------------------------------------------------------------------------------------------------
+---
 
 ## Working with Markdown
 
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+**Note:** You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
+- Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
+- Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
 
 ### For more information
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
+**Enjoy!** -->
